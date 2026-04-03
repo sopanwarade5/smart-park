@@ -29,8 +29,6 @@ public class BookingService {
     @Autowired
     private UserRepository userRepository;
 
-    @Autowired
-    private EmailService emailService;
 
     //   ENTRY – USER BOOKS SLOT (AREA + VEHICLE TYPE)
       
@@ -83,20 +81,6 @@ public class BookingService {
         booking.setStatus("ACTIVE");
 
         Booking savedBooking = bookingRepository.save(booking);
-
-        // ===== SEND EMAIL =====
-        User user = userRepository.findById(booking.getUserId())
-                .orElseThrow(() -> new RuntimeException("User not found"));
-
-        emailService.sendBookingConfirmation(
-                user.getEmail(),
-                user.getFirstName(),
-                slot.getArea().getAreaName(),
-                slot.getSlotNumber(),
-                booking.getVehicleId(),
-                vehicleType,
-                savedBooking.getEntryTime().toString()
-        );
 
         return savedBooking;
     }
