@@ -107,7 +107,7 @@ POST /api/bookings        → Book parking slot
 
 ## 👨‍💻 Author
 
-Sopan Warade
+**Sopan Warade**
 GitHub: https://github.com/sopanwarade5
 
 ---
