@@ -10,8 +10,7 @@ Smart Park is a full-stack web application built to streamline parking managemen
 * 🚘 Real-time Parking Slot Availability
 * 📅 Seamless Slot Booking System
 * 📊 Admin Controls for Managing Slots (if implemented)
-* 📩 Email Notifications (if implemented)
-
+* 📩 Email Notifications
 ---
 
 ## 🧠 Problem Statement
