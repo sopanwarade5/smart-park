@@ -9,7 +9,7 @@ Smart Park is a full-stack web application built to streamline parking managemen
 * 🔐 Secure User Authentication (Login & Registration)
 * 🚘 Real-time Parking Slot Availability
 * 📅 Seamless Slot Booking System
-* 📊 Admin Controls for Managing Slots (if implemented)
+* 📊 Admin Controls for Managing Slots
 * 📩 Email Notifications
 ---
 
@@ -107,7 +107,7 @@ POST /api/bookings        → Book parking slot
 
 ## 👨‍💻 Author
 
-**Sopan Warade**
+Sopan Warade
 GitHub: https://github.com/sopanwarade5
 
 ---
